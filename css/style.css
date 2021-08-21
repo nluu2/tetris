@@ -1,0 +1,188 @@
+:root {
+  font-size: 0.625em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  max-width: 60rem;
+  background-color: #f1f1ef;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+div {
+  height: 2rem;
+  width: 2rem;
+}
+
+/* utility */
+.t-ucase {
+  text-transform: uppercase;
+}
+
+.t-big {
+  font-size: 1.5em;
+}
+
+.t-wide {
+  letter-spacing: 1.5rem;
+}
+
+.t-close {
+  letter-spacing: 1rem;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.score-display {
+  font-size: 5rem;
+  color: rgb(133, 121, 107, 0.5);
+}
+
+.game-area {
+  display: flex;
+  justify-content: center;
+}
+
+.game {
+  height: 0;
+  width: 300px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 20rem;
+  height: 40rem;
+  background: #ffffff;
+  border-radius: 3px;
+}
+
+.previous-shape {
+  width: 10rem;
+  padding-left: 2rem;
+  margin-top: -5rem;
+}
+
+.previous-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 8rem;
+  height: 8rem;
+}
+
+.block {
+  background-image: url(../images/matcha-block.png);
+}
+
+.block2 {
+  background-image: url(../images/sage-block.png);
+}
+
+.block3 {
+  background-image: url(../images/base-block.png);
+}
+
+.block4 {
+  background-image: url(../images/terracotta-block.png);
+}
+
+.block5 {
+  background-image: url(../images/sand-block.png);
+}
+
+.end {
+  background-color: #d8edea;
+}
+
+.button {
+  position: relative;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 1px;
+  text-decoration: none;
+  line-height: 23px;
+  font-size: 10px;
+  display: block;
+  margin: 30px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  width: 12rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button:active {
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset,
+    0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  top: 5px;
+}
+
+.button:active:before {
+  top: -11px;
+  bottom: -5px;
+  content: "";
+}
+
+.button:hover {
+}
+
+.end {
+  background-image: url(/Users/limit/development/Tetris/images/matcha-block.png);
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 17.5rem;
+  height: 25rem;
+  background: #ffffff;
+  border-radius: 3px;
+  color: #000000;
+}
+
+.score,
+.lines-display {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
+.gif {
+  display: block;
+  width: 100%;
+  position: relative;
+  left: 30%;
+  bottom: -115px;
+}
